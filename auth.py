@@ -2,8 +2,8 @@ import base64
 import json
 import os
 
-from dotenv import load_dotenv
-from requests import post
+from dotenv import load_dotenv #type: ignore
+from requests import post #type: ignore
 
 load_dotenv()
 
