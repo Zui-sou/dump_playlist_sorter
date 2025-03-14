@@ -16,7 +16,8 @@ If for some reason you want to use this abomination, here are the steps you need
 - Neovim with the [Oil.nvim](https://github.com/stevearc/oil.nvim) plugin installed
     * There are tutorials everywhere for Nvim plugins but my favorite is [this](https://www.youtube.com/watch?v=zHTeCSVAFNY) one by [typecraft](https://www.youtube.com/@typecraft_dev)
         + The only caveat is that in the `oil.setup()` make sure you add `default_file_explorer = true` so it should look something like this `oil.setup({ default_file_explorer = true })`
-        + NOTE: I only use [lazy.nvim](https://github.com/folke/lazy.nvim) as my package manager so I'm not sure how exactly the setup function works with different pacage managers
+> [!NOTE] 
+> I only use [lazy.nvim](https://github.com/folke/lazy.nvim) as my package manager so I'm not sure how exactly the setup function works with different pacage managers
 
 ### Actual Usage
 
